@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arte & Charme 🎁</title>
+  <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/189/189107.png">
+  <style>
+    :root {
+      --cor-principal: #fbe9e7;
+      --cor-secundaria: #ffab91;
+      --cor-destaque: #d84315;
+      --cor-texto: #4e342e;
+      --cor-fundo-detalhe: #fff8f5;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: var(--cor-principal);
+      color: var(--cor-texto);
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(45deg, var(--cor-secundaria), var(--cor-destaque));
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+
+    .main-img {
+      display: block;
+      margin: 30px auto;
+      max-width: 85%;
+      border-radius: 15px;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    }
+
+    .description {
+      text-align: center;
+      font-style: italic;
+      margin: 15px auto;
+      max-width: 80%;
+    }
+
+    section {
+      padding: 30px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    section h2, section h3 {
+      color: var(--cor-destaque);
+      margin-bottom: 15px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    nav ul li {
+      background-color: var(--cor-secundaria);
+      padding: 10px 20px;
+      border-radius: 30px;
+      transition: transform 0.2s ease;
+    }
+
+    nav ul li:hover {
+      transform: scale(1.05);
+      background-color: var(--cor-destaque);
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+
+    ul.glossario {
+      margin-top: 20px;
+      padding-left: 20px;
+    }
+
+    ul.glossario li {
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background-color: var(--cor-secundaria);
+      text-align: center;
+      padding: 15px;
+      font-size: 1em;
+      margin-top: 40px;
+      color: white;
+    }
+
+    footer small {
+      display: block;
+      font-size: 0.8em;
+      color: #fce4ec;
+    }
+
+    .produto-detalhe {
+      margin-top: 40px;
+      background-color: var(--cor-fundo-detalhe);
+      border-left: 5px solid var(--cor-destaque);
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    .produto-detalhe ul {
+      list-style: square;
+      padding-left: 30px;
+    }
+
+    .produto-detalhe li {
+      transition: transform 0.2s ease, color 0.2s ease;
+      cursor: pointer;
+      padding: 5px;
+    }
+
+    .produto-detalhe li:hover {
+      transform: scale(1.05);
+      color: var(--cor-destaque);
+      font-weight: bold;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const itens = document.querySelectorAll('.produto-detalhe li');
+      itens.forEach(item => {
+        item.addEventListener('click', () => {
+          alert(`Você clicou em "${item.textContent}"`);
+        });
+      });
+    });
+  </script>
+</head>
+<body>
+  <header>
+    <h1>Arte & Charme 🎁</h1>
+    <p>Artesanatos feitos com amor por Dona Clara</p>
+  </header>
+
+    <div class="produto-detalhe">
+      <h3>Bordados Delicados</h3>
+      <p>Os bordados de Dona Clara são feitos com técnicas tradicionais como o ponto cruz e o macramê, trazendo beleza e carinho em cada ponto.</p>
+      <ul>
+        <li>Toalhas de Mesa</li>
+        <li>Panos de Prato</li>
+        <li>Lembrancinhas</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    Arte & Charme © 2025<br>
+    <small>Todos os direitos reservados</small>
+  </footer>
+</body>
+</html>

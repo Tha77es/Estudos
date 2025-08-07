@@ -1,0 +1,84 @@
+body {
+  font-family: 'Caveat', cursive;
+  font-size: 25px;
+  background-color: #F2DEA2;
+  color: #3e3e1f;
+  padding: 20px;
+  line-height: 1.7;
+}
+
+a {
+ 
+  top: 10px;
+  right: 20px;
+  text-decoration: none;
+  font-size: 24px;
+  background-color: #F2D680;
+  color: #000;
+ 
+}
+
+.voltar{
+
+position: absolute;
+  top: 10px;
+  right: 20px;
+  text-decoration: none;
+  font-size: 24px;
+  background-color: #F2D680;
+  color: #000;
+  padding: 6px 14px;
+  border-radius: 10px;
+  border: 1px solid #e4c900;
+}
+
+.botao{
+  
+  top: 10px;
+  right: 20px;
+  text-decoration: none;
+  font-size: 24px;
+  background-color: #F2D680;
+  color: #000;
+  padding: 6px 14px;
+  border-radius: 10px;
+  border: 1px solid #e4c900;
+}
+
+img {
+  display: block;
+  margin: 20px auto 10px auto;
+  max-width: 100px;
+  filter: hue-rotate(50deg);
+}
+
+h1 {
+  text-align: center;
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: #BF3641;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid #400101;
+  margin: 30px 0;
+}
+
+h2 {
+  font-size: 48px;
+  color: #BF2C2C;
+}
+
+ol {
+  padding-left: 20px;
+}
+
+ul {
+  margin-bottom: 20px;
+}
+
+p {
+  text-align: center;
+  font-size: 24px;
+}

@@ -1,0 +1,82 @@
+body {
+  font-family: 'Caveat', cursive;
+  font-size: 25px;
+  background-color: #eef6fc;
+  color: #101926;
+  padding: 20px;
+  line-height: 1.7;
+}
+
+a {
+  
+  top: 10px;
+  right: 20px;
+  text-decoration: none;
+  font-size: 24px;
+  background-color: #d2e9f9;
+  color: #101926;
+ 
+  
+}
+
+.botao {
+  
+  top: 10px;
+  right: 20px;
+  text-decoration: none;
+  font-size: 24px;
+  background-color: #d2e9f9;
+  color: #101926;
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 1px solid #a2c8e5;
+}
+
+img {
+  display: block;
+  margin: 20px auto 10px auto;
+  max-width: 100px;
+  filter: hue-rotate(180deg);
+}
+
+h1 {
+  text-align: center;
+  font-size: 45px;
+  margin-bottom: 20px;
+  color: #0A1E36;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid #0A1E36;
+  margin: 30px 0;
+}
+
+h2 {
+  font-size: 45px;
+  color: #0C3C59;
+}
+
+h3 {
+  font-size: 40px;
+  color: #0C3C59;
+}
+
+ol {
+  padding-left: 20px;
+
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+p.center {
+  text-align: center;
+  font-size: 20px;
+}
+

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="myButton" style="position: absolute;">Não</button>
+
+<script>
+  const button = document.getElementById("myButton");
+  button.addEventListener("click", moveButton);
+
+  function moveButton() {
+    const maxX = window.innerWidth - button.offsetWidth;
+    const maxY = window.innerHeight - button.offsetHeight;
+    const randomX = Math.floor(Math.random() * maxX);
+    const randomY = Math.floor(Math.random() * maxY);
+
+    button.style.left = randomX + "px";
+    button.style.top = randomY + "px";
+  }
+</script>
+
+<button style="display: flex; justify-content: center;"  >Sim</button>
+</body>
+</html>
