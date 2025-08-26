@@ -9,11 +9,12 @@
     
 <?php 
 
-$nome = "Rafael"
-$sobrenome = "Secretário"
-$cargo = "Secretaria"
+$nome = "Rafael" ;
+$sobrenome = "Secretário" ;
+$cargo = "Secretaria" ;
 
-?>
+echo "O profissional $nome"  . " " .  $sobrenome  .  " trabalha no setor $cargo." ;
+?> 
 
 </body>
 </html>
