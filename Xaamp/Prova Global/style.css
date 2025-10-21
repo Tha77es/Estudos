@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quintessential&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+body{
+background-image: linear-gradient(to right, #F28705, #F2CB05 ) ;
+}
+
+main {
+
+    background-color: white;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #D95204;
+}
+
+section{
+    background-color: white;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #D95204;
+    padding-top: 0px;
+    border-top-width: 10px;
+}
+
+h1 {
+    color:#8C4227;
+    text-align: center;
+    text-shadow: 1px 1px 2px #5e2d1b;
+}
+
+h2 {
+    color:#8C4227;
+    text-align: center;
+    text-shadow: 1px 1px 2px #5e2d1b;
+}
+
+p{
+    font-family: 'Libre Baskerville';
+    text-align: justify;
+}
+
+li{
+color: #8C4227;
+
+}
+
+header{
+    font-family: 'Sofia';
+    background-color: #d16a2e;
+    border-radius: 10px;
+}
+
+input[type=text], [type=number], select, input[type=datetime], input[type=month], input[type=password], input[type=tel]{
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 1em;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+  
+input[type=submit] {
+    width: 100%;
+    background-color: #F28705;
+    font-size: 1em;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color: #F28705;
+}
+
+

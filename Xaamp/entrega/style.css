@@ -1,0 +1,97 @@
+/* Reset simples */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Fundo da página */
+body {
+    background-color: #f5f7fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background: linear-gradient(90deg, #0077b6, #00b894);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+
+/* Seção principal */
+section, main {
+    max-width: 600px;
+    background: white;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Labels e inputs */
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #0077b6;
+}
+
+form input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #0077b6;
+    border-radius: 5px;
+    outline: none;
+    transition: 0.3s;
+}
+
+form input[type="number"]:focus {
+    border-color: #00b894;
+}
+
+/* Botão */
+form input[type="submit"] {
+    display: block;
+    width: 100%;
+    background: #ff7f11;
+    color: white;
+    font-size: 1.1em;
+    padding: 12px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+form input[type="submit"]:hover {
+    background: #e56e00;
+}
+
+/* Parágrafos de resultado */
+main p {
+    margin-bottom: 15px;
+}
+
+/* Link voltar */
+main a {
+    display: inline-block;
+    padding: 8px 15px;
+    background: #00b894;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+main a:hover {
+    background: #009972;
+}
